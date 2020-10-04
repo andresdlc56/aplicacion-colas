@@ -36,7 +36,7 @@ socket.on('ultimosCuatro', function(data) {
     audio.play();
     audio.muted = false;
 
-    actualizaHTML(data.ultimos4);
+    actualizaHTML(data.ultimosCuatro);
 });
 
 //Funcion para actualizar el html
